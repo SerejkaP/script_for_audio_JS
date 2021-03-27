@@ -8,6 +8,19 @@ while(fir!=sec){
     sec=info.length;
 }
 
+for(let i=0;i<info.length;i++){
+    let stringTime = info[i].innerText;
+    let time = stringTime.split(":");
+    //if(time.length==2) times+=time[]
+    console.log(time);
+}
+
+
+
+console.log(info);
+
+
+
 // if (time != null && time.length != 0) {
 // var fullTime = time[0].innerText;
 // alert("Продолжительность треков: " + fullTime);
