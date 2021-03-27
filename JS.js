@@ -11,14 +11,9 @@ while(fir!=sec){
 for(let i=0;i<info.length;i++){
     let stringTime = info[i].innerText;
     let time = stringTime.split(":");
-    //if(time.length==2) times+=time[]
-    console.log(time);
+    if(time.length==2) times+=Number(time[1])+60*Number(time[0]);
+    if(time.length==3) times+=Number(time[2])+60*Number(time[1])+3600*Number(time[0]);
 }
-
-
-
-console.log(info);
-
 
 
 // if (time != null && time.length != 0) {
