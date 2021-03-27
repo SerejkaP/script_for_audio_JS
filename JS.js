@@ -39,4 +39,5 @@ if(mounths!=undefined) stringTime+=mounths+" месяца, "; //Прокерки
 if(days!=undefined) stringTime+=days+" дня, ";
 if(hours!=undefined) stringTime+=hours+" часа, ";
 stringTime+=minutes+" минут, "+seconds+" секунды.";
+console.log(stringTime);
 
